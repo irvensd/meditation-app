@@ -24,7 +24,7 @@ body::after{
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, .6);
-   z-index: -1;
+    z-index: -1;
 }
 
 .input {
@@ -111,5 +111,10 @@ button {
 button:hover {
     background-color: #f1f1f1;
     color: #6236ff;
+}
+
+.button-inactive {
+    pointer-events: none;
+    background-color: #969696;
 }
 
